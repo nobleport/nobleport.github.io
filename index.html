@@ -270,27 +270,32 @@
         <!-- Contact -->
         <article id="contact">
           <h2 class="major">Contact</h2>
-          <form id="contact-form" method="post" action="">
+          <form id="contact-form" action="https://formsubmit.co/338692fe2217772037f680a1e1ef60d6" method="post">
             <div class="fields">
               <div class="field half">
                 <label for="name">Name</label>
-                <input type="text" name="name" id="input-name" />
+                <input type="text" name="name" id="input-name" required/>
               </div>
               <div class="field half">
                 <label for="email">Email</label>
-                <input type="text" name="email" id="input-email" />
+                <input type="email" name="email" id="input-email" required/>
               </div>
               <div class="field">
                 <label for="message">Message</label>
-                <textarea name="message" id="input-message" rows="4"></textarea>
+                <textarea name="message" id="input-message" rows="4" required></textarea>
               </div>
+
+              <!-- <input type="hidden" name="'_next" value="http://www.john-gardner.com/index.html#thanks"/>
+              <input type="hidden" name="subject" value="Message From Portfolio Site"> -->
+
             </div>
+
             <ul class="actions">
               <li>
-                <input id="contact-submit" type="submit" value="Send Message" class="primary" />
+                <input id="contact-submit" type="submit" value="Send Message" class="primary"/>
               </li>
               <li><input type="reset" value="Reset" /></li>
-              <li id="contact-form-errors"></li>
+              <!-- <li id="contact-form-errors"></li> -->
             </ul>
           </form>
           <!-- <ul class="icons">
@@ -678,6 +683,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>    
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>     -->
   </body>
 </html>
